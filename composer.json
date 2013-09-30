@@ -1,0 +1,26 @@
+{
+    "name": "teraone/memcache-sasl",
+    "type": "library",
+    "description": "Memcache class with SASL support",
+    "keywords": ["memcached","sasl", "memcache"],
+    "homepage": "https://github.com/teraone/PHPMemcacheSASL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronny Wang",
+            "email": "ronnywang@gmail.com",
+            "role": "Creator"
+        },
+        {
+            "name": "Stefan Gotre",
+            "email": "gotre@teraone.de",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [ "MemcacheSASL.php"]
+    }
+}
